@@ -1,0 +1,4 @@
+ls                  <-- list all fils
+ls -la              <-- list all in format
+rm -rf              <-- forcefully remove
+touch filename      <-- create a file
