@@ -1,3 +1,18 @@
+######create a new repository on the command line
+echo "# Sprint90" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/bathinasirisha/Sprint90.git
+git push -u origin main
+
+######push an existing repository from the command line
+git remote add origin https://github.com/bathinasirisha/Sprint90.git
+git branch -M main
+git push -u origin main
+
+
 Ref:https://guides.github.com/features/mastering-markdown/   <-- to write .md files
 Ref:https://www.tutorialspoint.com/git/git_rename_operation.htm
 - file too long -execute below command in bash or modify config file
