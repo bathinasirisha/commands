@@ -70,7 +70,7 @@ sed -i -e "s/MEMORY_STORE_IP/10.61.199.44/g" /etc/php.ini               <-- find
 sed -i 's/^SELINUX=enforcing$/SELINUX=permissive/' /etc/selinux/config  <-- repace SELINUX=enforcing
 awk ====to filter the columns
 ## tee
-packer build packer.json | tee packer.log
+packer build packer.json | tee packer.log ========copy this command to  file
 
 ## mount
 mount -t gcsfuse -o implicit_dirs,uid=48,gid=48,allow_other qa01-mcm-uploads /var/www/html/upload
