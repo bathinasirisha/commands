@@ -53,7 +53,7 @@ git fetch  <-- If any new branchs availabe at gitlab it will be fetched to local
 git log
 git diff
 git stash      <--Now, you want to switch branches for customer escalation, but you don’t want to commit what you’ve been working on yet; so you’ll stash the changes
-git stash list
+git stash list <-- Displays a list of all stashes, enabling you to see which changes are stored and access them when needed.
 git stash pop = git stash apply + git stash drop
 git stash pop  <-- we can get back the changes which we not commited after we switching to old branch.
 git merge      <--Git merge is a command that allows you to merge branches from Git
